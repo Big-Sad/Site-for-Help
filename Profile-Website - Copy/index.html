@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <!--HEADER-->
+    <head>
+        <title>My Name</title>
+        <!--Font Stylesheets (Google Fonts)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <!--Stylesheets-->
+        <link id="colorScheme" rel="stylesheet" type="text/css" href="style_light.css"/>
+        <!--JavaScript-->
+        <script src="js/toggleStyleSheet.js" type="text/javascript"></script>
+        <!--CheerpJ (Runs JAR files in browser)-->
+        <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+        <h1>Elizabeth Sellers</h1>
+    </head>
+
+
+    <!--NAVIGATION-->
+    <nav>
+        <!--Subpage Links-->
+        <ul id="subpageLinks">
+            <li class="navLinks"><a href="subpages/code.html" target="_self">Code</a></li>
+            <li class="navLinks"><a href="subpages/about.html" target="_self">About</a></li>
+            <li class="navLinks"><a href="" target="_self">Resume</a></li>
+        </ul>
+        <!--Links to Job Sites-->
+        <ul class="jobSiteLinks">
+            <li><a href="" target="_blank" title="Glassdoor">
+                <img src="../images/glassDoor_lightMode.png" alt="Glassdoor Link" class="jobSite" id="glassDoorLogo"></a></li>
+            <li><a href="" target="_blank" title="Handshake">
+                <img src="../images/handShake_lightMode.png" alt="Handshake Link" class="jobSite" id="handshakeLogo"></a></li>
+            <li><a href="" target="_blank" title="Indeed">
+                <img src="../images/indeed_lightMode.png" alt="Indeed Link" class="jobSite" id="indeedLogo"></a></li>
+            <li><a href="" target="_blank" title="LinkedIn">
+                <img src="../images/linkedIn_lightMode.png" alt="LinkedIn Link" class="jobSite" id="linkedInLogo"></a></li>
+            <li><a href="" target="_blank" title="ZipRecuiter">
+                <img src="../images/zipRecruiter_lightMode.png" alt="ZipRecuiter Link" class="jobSite" id="zipRecuiterLogo"></a></li>
+        </ul>
+    </nav>
+
+    <!--BODY-->
+    <body>
+        <!--About Me-->
+        <h2>About Me</h2>
+        <img id="photo_of_self" src="" alt="Image of Elizabeth Sellers">
+        <p>Deleted for privacy</p>
+        
+
+        <script>
+            (async function () {
+              await cheerpjInit();
+              cheerpjCreateDisplay(1000, 800);
+              await cheerpjRunJar("/app/jar/minesweeperclone.jar");
+            })();
+        </script>
+    </body>
+
+    <!--FOOTER-->
+    <footer>
+        <p>Contact</p>
+        <button type="button" onclick="toggleStyleSheet()">Color Scheme</button>
+    </footer>
+
+</html>
+<!--Made by Me-->
