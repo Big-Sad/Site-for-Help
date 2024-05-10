@@ -1,0 +1,197 @@
+/*Main Webpage*/
+body {
+    background-color: #FAFAFA;
+    color: #1d1d1d;
+    padding: 0 35px;
+    font-family: "Montserrat", "Inter", "Raleway", sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/*Header*/
+h1 {
+    font-family: "Bowlby One SC", sans-serif;
+    text-align: center;
+    font-size: 400%;
+    margin: 0;
+    padding: -15%;
+    color: #131653;
+}
+
+
+/*Navigation*/
+    nav {
+        margin: -20px -30px;
+        border-bottom: 1px solid #000;
+        font-family: "Lora", serif;
+        font-weight: bold;
+        background-color: #0ecb04;*/
+        padding: 0 20px;
+        position: sticky;
+        top: 0;
+        background-color: #FAFAFA;
+        padding-top: 1px;
+        height: 40px;
+        z-index: 100;
+    }
+
+
+    nav li {
+        display: inline;
+        font-size: 18px;
+    }
+
+    nav ul#subpageLinks {
+        padding-left: 30px;
+        margin-top: 7px;
+        margin-bottom: 0;
+    }
+
+    nav li.navLinks {
+        padding-right: 10px;
+        padding-bottom: -50px;
+        margin-bottom: 0px;
+        margin-top: 0;
+    }
+
+    nav ul.jobSiteLinks {
+        text-align: right;
+        margin-top: -37px;
+        margin-right: 20px;
+        padding-top: 15px;
+    }
+
+/*Body*/
+h2 {
+    padding-top: 25px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Montserrat", "Inter", "Raleway", sans-serif;
+}
+
+
+/*Resume Sidebar*/
+    div#sidebar {
+        background-color: #f1f0ed;
+        width: 415px;
+        margin-top: 50px;
+        padding: 0px 20px 12px 20px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 5px;
+        position: sticky;
+        //top: 41.5px;
+        /*bottom: null; */
+    }
+
+    div#sidebar h4 {
+        font-family: "Vollkorn", "Fraunces", serif;
+        font-size: 20px;
+        margin-bottom: -15px;
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    div#sidebar p {
+        font-size: 15px;
+    }
+
+    div#sidebar img.contactIcon {
+        height: scale;
+        width: 15px;
+        background-color: #f1f0ed;
+        margin-bottom: -2px;
+        margin-right: 5px;
+    }
+
+    div#sidebar h5 {
+        font-family: "Vollkorn", "Fraunces", serif;
+        font-size: 16px;
+        margin-bottom: -10px;
+        margin-top: -10px;
+        padding-left: 5px;
+    }
+
+    div#sidebar ul {
+        list-style-type: none;
+        padding-left: 10px;
+        padding-top: 0;
+    }
+
+    div#sidebar li {
+        margin-top: 2px;
+    }
+
+    div#sidebar img.languageLogo {
+        background-color: #f1f0ed;
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+        margin-bottom: -2px;
+    }
+
+    div.education {
+        margin-top: 30px;
+    }
+
+    div.education p {
+        padding: 0;
+        margin: 0;
+    }
+
+    div.shadedRow {
+        background-color: rgba(0, 0, 0, 0.05);
+        padding: 5px;
+        border-radius: 10px;
+        margin-top: 13px;
+    }
+
+
+/*Resume Main*/
+    div#resume h2 {
+        font-family: "Vollkorn", "Fraunces", serif;
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+
+    div#resume {
+        padding-left: 470px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    div#resume ul {
+        list-style-type: square;
+    }
+
+    div#resume div.lightRow {
+        padding: 1px 20px;
+    }
+
+    div#resume div.darkRow {
+        background-color: rgba(0, 0, 0, 0.03);
+        border-radius: 10px;
+        padding: 1px 20px;        
+    }
+    
+    div#resume p {
+        margin: 5px;
+        font-size: 19px;
+        margin-bottom: -2px;
+    }
+
+    div#resume ul {
+        list-style: disc;
+        margin-top: 0;
+        padding-left: 25px;
+    }
+
+    div#resume li {
+        padding-top: 5px;
+        font-size: 16px;
+    }

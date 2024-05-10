@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <!--HEADER-->
+    <head>
+        <title>Resume</title>
+        <!--Font Stylesheets (Google Fonts)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!--Stylesheets-->
+        <link id="colorScheme" rel="stylesheet" type="text/css" href="../style_light.css"/>
+        <!--CheerpJ (Runs JAR files in browser)-->
+        <script src="https://cjrtnc.leaningtech.com/3_20240320_461/cj3loader.js"></script>
+        <h1>My Name</h1>
+    </head>
+
+
+    <!--NAVIGATION-->
+    <nav>
+        <!--Subpage Links-->
+        <ul id="subpageLinks">
+            <li class="navLinks"><a href="index.html" target="_self">Home</a></li>
+            <li class="navLinks"><a href="index.html" target="_self">Code</a></li>
+            <li class="navLinks"><a href="index.html" target="_self">About</a></li>
+        </ul>
+        <!--Links to Job Sites-->
+        <ul class="jobSiteLinks">
+            <li><a href="" target="_self" title="Handshake">
+                <img src="../images/handShake_lightMode.png" alt="Handshake Link" class="jobSite" id="handshakeLogo"></a></li>
+            <li><a href="" target="_self" title="LinkedIn">
+                <img src="../images/linkedIn_lightMode.png" alt="LinkedIn Link" class="jobSite" id="linkedInLogo"></a></li>
+        </ul>
+    </nav>
+
+    <!--BODY-->
+    <body>
+        <!--Sidebar-->
+        <div id="sidebar">
+            <!--Contact-->
+            <h4 style="padding-top: 13px">Contact</h4>
+                <p><img class="contactIcon" src="https://pngimg.com/d/phone_PNG48996.png" style="margin-top: 5px;">My Phone Number</p>
+                <p><img class="contactIcon" src="https://pngimg.com/d/email_PNG100742.png" style="margin: 0; margin-right: 5px;">My Email Address</p>
+                <p><img class="contactIcon" src="https://www.freeiconspng.com/thumbs/location-icon-png/location-icon-map-png--1.png">My Street Address</p>
+                <p style="padding-left: 20px; margin-top: -10px;">My Other Address Part</p>
+            <!--Skills-->
+            <h4>Skills</h4>
+                <ul>
+                    <li>Detail-Oriented</li>
+                    <li>Problem Solver</li>
+                    <li>Takes Initiateive</li>
+                    <li>Organized</li>
+                    <li>Microsoft Office Suite</li>
+                    <li>Quick Learner</li>
+                    <li>Reading UMLs</li>
+                </ul>
+                <h5>Programming and Markup Languages</h5>
+                <ul>
+                    <li><img class="languageLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png">HTML</li>
+                    <li><img class="languageLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png">CSS</li>
+                    <li><img class="languageLogo" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png">Java</li>
+                    <li><img class="languageLogo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png">C</li>
+                </ul>
+
+            <!--Education-->
+            <div class="education">
+                <h4 style="padding-bottom: 5px;">Education</h4>
+                <p><img id="utLogo" src=""></p>
+                <p style="margin-top: 10px;"><b>The University I go to</b></p>
+                <p style="margin-bottom: 10px;"><b><i>Where that University Is</i></b></p>
+                <p>Bachelor of Computer Science (BS)</p>
+                <p style="margin-bottom: 10px;">Minor in Mathematics</p>
+                <div class="shadedRow">
+                    <p style="float: right;">Not Showing You That</p>
+                    <p>Anticipated Graduation Date:</p>
+                </div>
+                <div style="padding: 5px;">
+                    <p style="float: right;">That's for me to know</p>
+                    <p>GPA:</p>
+                </div>
+
+                <p>placeholder text</p>
+                <p>placeholder text</p>
+                <p>placeholder text</p>
+                <p>placeholder text</p>
+                <p>placeholder text</p>
+            </div>
+
+            <!--Javascript to Change Where Sidebar Sticky Adheres-->
+            <script>
+                var oldScrollY = window.scrollY;
+                var stickyAnchor = document.getElementById('sidebar');
+                window.onscroll = function(e) {
+                    if(oldScrollY < window.scrollY){
+                        getElementById("sidebar").style.top="41.5px";
+                        getElementById("sidebar").style.bottom="null";
+                    } else {
+                        getElementById("sidebar").style.top="null";
+                        getElementById("sidebar").style.bottom="0";
+                    }
+                    oldScrollY = window.scrollY;
+                }
+            </script>
+        </div>
+        
+        <!--Main Content-->
+        <div id="resume">
+            <!--Profile-->
+            <h2>Profile</h2>
+
+            <!--Work Experience-->
+            <h2>Work Experience</h2>
+            <div class="lightRow">
+            <p style="float: right;">04/2024 - Present</p>
+            <p>That's Private</p>
+            <p style="font-size: 17px;">Job Title</p>
+            <ul>
+                <li>Info 1</li>
+                <li>Info 2</li>
+                <li>Info 3</li>
+                <li>Info 4</li>
+                <li>Info 5</li>
+            </ul>
+            </div>
+
+            <!--Computer Science Projects-->
+            <h2>Computer Science Projects</h2>
+            <div class="darkRow">
+                <p style="float: right;">02/2024 - Present</p>
+                <p>App for the School</p>
+                <ul>
+                    <li>Phone app for the school events</li>
+                    <li>Use of GUI using Java Swing</li>
+                    <li>Android and IOS compatibility</li>
+                    <li>Created in Android Studio</li>
+                    <li>Manager of a team of 4, focusing on one page of the app</li>
+                    <li>Assisted in creating client-side design for app</li>
+                </ul>
+            </div>
+            <div class="lightRow">
+                <p style="float: right;">04/2023 - 05/2023</p>
+                <p>Minesweeper Clone</p>
+                <ul>
+                    <li>Plays Minesweeper</li>
+                    <li>Use of GUI using Java Swing</li>
+                    <li>Enabled users to set custom board size</li>
+                    <li>3 functional color schemes that can be actively applied</li>
+                    <li>Custom toggle button to switch between flag mode and bomb mode</li>
+                    <li>3 levels of difficulty plus a default difficulty</li>
+                </ul>
+            </div>
+            <div class="darkRow">
+                <p style="float: right;">03/2023</p>
+                <p>Digital 2-Player Checkers</p>
+                <ul>
+                    <li>Simulates checkers on a computer</li>
+                    <li>Use of GUI using Java Swing</li>
+                    <li>Created custom board pieces that actively update and display in a tile arrangement</li>
+                    <li>Usable 'King' pieces</li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+
+    <!--FOOTER-->
+    <footer>
+    </footer>
+
+</html>
